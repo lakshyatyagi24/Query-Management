@@ -1,17 +1,13 @@
 import React, { Component } from 'react';
 import { Text, View, StyleSheet, StatusBar } from 'react-native';
+import { render } from 'react-dom';
 
-function App() {
-  return (
-    <View style={styles.container}>
-      <StatusBar
-        hidden={false}
-        backgroundColor="white"
-        barStyle="dark-content"
-      />
-      <Text style={{ fontSize: 18 }}>Hi</Text>
-    </View>
-  );
+function Main() {
+  render(){
+    return(
+      
+    )
+  }
 }
 
 const styles = StyleSheet.create({
@@ -23,4 +19,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default Main;
