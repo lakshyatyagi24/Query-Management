@@ -1,13 +1,7 @@
 import React, { Component } from 'react';
 import { Text, View, StyleSheet, StatusBar, TextInput } from 'react-native';
 
-import { createBottomTabNavigator, createAppContainer } from 'react-navigation';
-import { createMaterialBottomTabNavigator } from 'react-navigation-material-bottom-tabs';
-import { Icon } from 'react-native-elements';
-
-
-
-class App extends Component {
+class Profile extends Component {
   constructor() {
     super()
     this.state = {}
@@ -34,4 +28,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default Profile;
