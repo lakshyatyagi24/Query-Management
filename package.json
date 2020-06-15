@@ -9,7 +9,8 @@
     "Lint": "eslint ."
   },
   "dependencies": {
-    "expo": "~37.0.3",
+    "@react-navigation/bottom-tabs": "^5.5.2",
+    "expo": "^37.0.12",
     "formik": "^2.1.4",
     "gesture": "^0.1.0",
     "navigation": "^5.3.1",

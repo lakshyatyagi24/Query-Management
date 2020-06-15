@@ -20,7 +20,7 @@ class App extends Component {
           backgroundColor="red"
           barStyle="dark-content"
         />
-        <TextInput />
+        <Text>Hi1</Text>
       </View>
     );
   }
