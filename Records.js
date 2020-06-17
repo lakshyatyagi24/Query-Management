@@ -1,13 +1,7 @@
 import React, { Component } from 'react';
 import { Text, View, StyleSheet, StatusBar, TextInput } from 'react-native';
 
-import { createBottomTabNavigator, createAppContainer } from 'react-navigation';
-import { createMaterialBottomTabNavigator } from 'react-navigation-material-bottom-tabs';
-import { Icon } from 'react-native-elements';
-
-
-
-class App extends Component {
+class Records extends Component {
   constructor() {
     super()
     this.state = {}
@@ -20,7 +14,7 @@ class App extends Component {
           backgroundColor="red"
           barStyle="dark-content"
         />
-        <Text>Hi1</Text>
+        <TextInput />
       </View>
     );
   }
@@ -34,4 +28,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default Records;
