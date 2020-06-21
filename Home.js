@@ -5,39 +5,24 @@ import { createBottomTabNavigator, createAppContainer } from 'react-navigation';
 import { createMaterialBottomTabNavigator } from 'react-navigation-material-bottom-tabs';
 import { Icon, colors } from 'react-native-elements';
 
-
 import Profile from './Profile'
 import Records from './Records';
 import { Button } from 'react-native-paper';
+import { Formik } from 'formik';
 
 class Home extends Component {
     constructor() {
         super()
-        this.state = {
-            PickerValue: ''
-        }
-    }
-    clickme = () => {
-        Alert.alert(this.state.PickerValue);
     }
     render() {
         return (
             <View style={styles.container}>
                 <StatusBar
                     hidden={false}
-                    backgroundColor="red"
+                    //backgroundColor="red"
+                    backgroundColor="white"
                     barStyle="dark-content"
                 />
-                <Picker
-                    style={{ width: '80%' }}
-                    selectedValue={this.state.PickerValue}
-                    onValueChange={(temValue, itemIndex) => this.setState({ PickerValue:itemValue })}
-                >
-                    <Picker.Item label="Select Item" itemValue="" />
-                    <Picker.Item label="Html" itemValue="html" />
-                    <Picker.Item label="JS" itemValue="js" />
-                </Picker>
-                <Button title="Click Me" onPress={this.clickme} />
                 <Text>Hi</Text>
             </View>
         );
@@ -109,7 +94,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#123456',
+        backgroundColor: '#ffffff',
     },
 });
 

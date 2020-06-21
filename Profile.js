@@ -11,7 +11,8 @@ class Profile extends Component {
       <View style={styles.container}>
         <StatusBar
           hidden={false}
-          backgroundColor="red"
+          backgroundColor="white"
+          //backgroundColor="red"
           barStyle="dark-content"
         />
         <TextInput />
