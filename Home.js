@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Text, View, StyleSheet, StatusBar, TextInput } from 'react-native';
+import { Text, View, StyleSheet, StatusBar, TextInput, Picker, Alert } from 'react-native';
 
 import { createBottomTabNavigator, createAppContainer } from 'react-navigation';
 import { createMaterialBottomTabNavigator } from 'react-navigation-material-bottom-tabs';
@@ -7,11 +7,12 @@ import { Icon, colors } from 'react-native-elements';
 
 import Profile from './Profile'
 import Records from './Records';
+import { Button } from 'react-native-paper';
+import { Formik } from 'formik';
 
 class Home extends Component {
     constructor() {
         super()
-        this.state = {}
     }
     render() {
         return (
@@ -19,9 +20,10 @@ class Home extends Component {
                 <StatusBar
                     hidden={false}
                     backgroundColor="red"
+                    //backgroundColor="white"
                     barStyle="dark-content"
                 />
-                <Text>Hi2</Text>
+                <Text>Hi</Text>
             </View>
         );
     }
