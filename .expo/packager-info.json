@@ -2,8 +2,9 @@
   "devToolsPort": 19002,
   "expoServerPort": 19000,
   "packagerPort": 19001,
-  "packagerPid": 5642,
-  "expoServerNgrokUrl": "https://pj-4kv.lakshyatyagi24.query-management.exp.direct",
-  "packagerNgrokUrl": "https://packager.pj-4kv.lakshyatyagi24.query-management.exp.direct",
-  "ngrokPid": 31783
+  "packagerPid": 78524,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null,
+  "webpackServerPort": null
 }
