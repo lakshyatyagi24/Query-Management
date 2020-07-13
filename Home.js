@@ -24,6 +24,7 @@ class Home extends Component {
                     barStyle="dark-content"
                 />
                 <Text>Hi</Text>
+                
             </View>
         );
     }
